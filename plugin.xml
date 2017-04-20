@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="cordova-plugin-fca-queries-schemes" version="0.1.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>App Queries Strings</name>
+    <author></author>
+    <description>
+
+    </description>
+    <keywords>cordova, ios, app, queries, url, schemes, lsapplicationqueriesschemes</keywords>
+    <license>MIT</license>
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+    <platform name="ios">
+        <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
+            <array>
+                <string>ilinkstore</string>
+                <string>ilinkconf</string>
+                <string>ilinkstock</string>
+                <string>ilinkdelivery</string>
+                <string>ilinkstatus</string>
+                <string>ilinkwelcome</string>
+                <string>ilinkecrm</string>
+                <string>ilinkquotation</string>
+                <string>eproduct</string>
+            </array>
+        </config-file>
+    </platform>
+</plugin>

@@ -1,0 +1,38 @@
+{
+  "name": "cordova-plugin-fca-queries-schemes",
+  "version": "0.0.1",
+  "author": "",
+  "description": "",
+  "cordova": {
+    "id": "cordova-plugin-fca-queries-schemes",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcaprini/cordova-plugin-fca-queries-schemes.git"
+  },
+  "keywords": [
+    "cordova",
+    "ios",
+    "app",
+    "queries",
+    "url",
+    "schemes",
+    "lsapplicationqueriesschemes",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lcaprini/cordova-plugin-fca-queries-schemes/issues"
+  },
+  "homepage": "https://github.com/lcaprini/cordova-plugin-fca-queries-schemes#readme"
+}
